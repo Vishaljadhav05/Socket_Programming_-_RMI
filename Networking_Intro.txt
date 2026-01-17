@@ -1,0 +1,85 @@
+=> Networking Introduction
+
+=> Networking :-
+    -> Networking is the process of connecting two or more systems in order to achieve data sharing or 
+        resource sharing.
+
+-> Types of networking :-
+1. LAN (Local Area Network) - Small building like offices, college labs etc.
+2. PAN (Personal Area Network) - For personal use within 10-12 meters.
+3. MAN (Metropolitian Area Network) - It is within the city like banks within the city.
+4. WAN (Wide Area Network) - It is within the states or countries.
+
+=> To establish networking we needs basically 3 things :-
+    1. Hardware :- systems, routers, switch, hub etc.
+    2. Media :- fibre optics, wires, wireless etc.
+    3. Software :- any programming language (java).
+
+------------------------------------------------------------------------------------------------------------------
+
+=> Terms used in networking :-
+
+1. IP Address :-
+    -> IP Address full form is Internet Protocol Address.
+    -> IP address is the unique integer or decimal value which is provided by ISP (Internet Service Provider) whenever 
+        the system is connected to the network.
+    -> IP Address allows the computer to send or receive data.
+    -> IP Address confirms to send or receive the data to the accurate system.
+    -> IP Address are of 4 types :-
+            public, private, static, dynamic
+    -> Command to get the IP Address of my system :- ipconfig or ipconfig/all.
+
+2. Port Number :-
+    -> Port number is the unique integer value for each and every service or process which is executing in the system.
+    -> For example : 80 - HTTP, 3306 - MySQL etc.
+    -> Command to get the Port number :- netstat -ano.
+
+3. Protocol :-
+    -> It is the set of rules and regulations for data transfer or communication.
+    -> There are a lot of protocols for example :- IP (Internet Protocol), TCP (Transmission Control Protocol), 
+        UDP (User Datagram Protocol), HTTP (Hyper Text Transfer Protocol), FTP (File Transfer Protocol), 
+        SMTP (Simple Mail Transfer Protocol), POP3 (Post Office Protocol 3), SSH (Secure Shell) etc.
+
+------------> NOTE :-
+1. Java provides a package i.e. java.net for TCP and UDP.
+2. Classes used for TCP : Socket, ServerSocket etc.
+3. Classes used for UDP : DatagramPacket, DatagramSocket etc.
+4. Other important classes used for networking are : URL, URLCOnnection, HTTPConnection etc.
+
+4. MAC Address :-
+    -> MAC Address is the unique integer value for the machine which is embedded in the Network Card (Network Interface Card) at the time of manufacturing
+    -> MAC Address cannot be changed (But we can change the IP Address).
+    -> MAC Address is also known as Physical Address.
+
+5. Socket :-
+    -> Socket is the end-point of the communication.
+    -> Socket is the buffer which is the combination of IP Address, Port Number & Protocol.
+    -> Socket is an object from which we can read or write the data.
+
+---------------------------------------------------------------------------------------------------------------------
+
+=> What is difference between IP Address and Port Number ?
+    -> IP address is the unique integer value of the system in the network.
+    Port number is the unique integer value of the services or process running is the current/present system.
+
+---------------------------------------------------------------------------------------------------------------------
+
+=> What is difference between TCP & UDP ?
+    1. TCP :- It is connection oriented
+        UDP :- It is connection-less
+    2. TCP :- It is fast
+        UDP :- It is slow
+
+---------------------------------------------------------------------------------------------------------------------
+
+=> What is difference between IP Address & MAC Address ?
+-> IP address is the unique integer value of the system in the network.
+    MAC Address is the unique integer value for the system which is embedded in the Network Card 
+    (Network Interface Card) at the time of manufacturing.
+
+-> IP Address is provided by ISP.
+    MAC Address is provided by the manufacturing companies.
+-> IP Address can be changed.
+    MAC Address cannot be changed.
+
+---------------------------------------------------------------------------------------------------------------------
