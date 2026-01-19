@@ -83,3 +83,22 @@
     MAC Address cannot be changed.
 
 ---------------------------------------------------------------------------------------------------------------------
+
+=> We can create 2 types of applications in java :-
+
+1. Standalone Applications (Desktop Applications) :- Standalone applications are those which does not use 
+    client-server architecture and they are executed only on one system. For examples :- TicTacToe game, 
+    Editor (Notepad), Billing Software, Car-Racing Game etc.
+
+2. Distributed Applications (Client-Server Project) :- Distributed applications are those which use 
+    client-server architecture and they can communicate with multiple systems. For examples :- Chat Server, 
+    Banking etc.
+
+=> Note :-
+->  To prepare distributed applications java has provided multiple technologies i.e.
+    1. Socket Programming
+    2. RMI
+    3. CORBA
+    4. EJB
+    5. Web Services
+    etc
