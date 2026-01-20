@@ -1,0 +1,23 @@
+Socket Programming
+
+=> Socket Programming :-
+
+-> Socket Programming is used for communication between two systems (two JRE).
+-> Socket Programming can be connection-oriented or connection-less.
+-> To achieve Socket Programming java has provided one package java.net package.
+
+-> For connection-oriented TCP is used and java provides some classes i.e. ServerSocket & Socket.
+-> For connection-less UDP is used and java provides some classes i.e. DatagramPacket & DatagramSocket.
+-> These all classes are present in java.net package.
+
+-> Socket Programming is used to create distributed applications.
+
+-------------------------------------------------------------------------------------------------------------------
+
+=> Steps for Socket Programming :-
+-> Steps for Server side -
+    1. Create ServerSocket object and run it on certain port number.
+    2. Call accept() method of ServerSocket class. It will wait for client request and as soon as client 
+        sends the request, it will accept the request.
+-> Steps for Client side -
+    1. Create Socket object on client side and provide IP Address and Port Number.
