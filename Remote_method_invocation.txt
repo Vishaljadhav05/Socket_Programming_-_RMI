@@ -1,0 +1,21 @@
+=> Remote Method Invocation
+
+=> RMI :- (Remote Method Invocation)
+
+-> RMI is an API which is used to create Distributed Applications in java.
+-> RMI API allows an object to invoke another method that exists in another address space or another JVM.
+-> RMI provides remote communication between the applications using two objects i.e. "stub" & "skeleton".
+-> NOTE : RMI API is provided in "java.rmi" package.
+
+-----------------------------------------------------------------------------------------------------
+
+=> Stub object :-
+-> Stub is an object which acts as a gateway for the client side. All the outgoings request 
+    are routed through stub object.
+
+-> Stub object has the following tasks :-
+    1. It initiates the connection with remote machine (remote JVM).
+    2. It writes and transmits the parameters from client to server (remote machine).
+    3. It will wait for the result.
+    4. It can read the returned result/expression or exception.
+    5. Finally, it can return the value to the caller/client.
