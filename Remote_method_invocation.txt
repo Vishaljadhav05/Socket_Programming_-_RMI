@@ -19,3 +19,28 @@
     3. It will wait for the result.
     4. It can read the returned result/expression or exception.
     5. Finally, it can return the value to the caller/client.
+
+=> Skeleton Object :-
+-> Skeleton is an object which acts as a gateway for the server side. All the incomming 
+    requests are routed through skeleton object
+-> Skeleton object has the following tasks :-
+    1. It can read the parameters for remote machine.
+    2. It will invoke the remote method.
+    3. It can write and transmits the result.
+
+-> NOTE :- From rmic 1.2 version, skeleton object is not generated. New JRMP (Java Remote Method Protocol) has got rid of
+     skeleton object.
+
+=> RMI Registry :-
+    -> It is the namespace on which all the server objects are placed.
+
+--------------------------------------------------------------------------------------------------------------
+=> Steps for RMI program :-
+
+1. Create the remote interface
+2. Create an implemented class for remote interface
+3. Create client and server
+4. Compile, stub & skeleton (rmic)
+5. start the registry (rmiregistry)
+6. Start the server
+7. Run the client
