@@ -1,0 +1,4 @@
+Create a MyClient on different laptop (machine).
+
+-> Package name may be differ in another machine.
+-> Both machine must be connect through Internet and through same wifi.
